@@ -1,5 +1,12 @@
-on : leo
-push : lwlw
+on :
+push :
 branches : 
 - main
 - release/*
+on:
+pull_request:
+branches:
+- main
+on:
+schedule:
+- cron: "02**1-5"
