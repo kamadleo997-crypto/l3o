@@ -1,0 +1,5 @@
+on : leo
+push : lwlw
+branches : 
+- main
+- release/*
